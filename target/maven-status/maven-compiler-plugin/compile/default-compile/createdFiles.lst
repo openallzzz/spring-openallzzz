@@ -1,0 +1,17 @@
+com/openallzzz/Main.class
+com/spring/BeanPostProcessor.class
+com/spring/BeanNameAware.class
+com/spring/OpenallzzzApplicationContext.class
+com/openallzzz/service/OpenalzzzPostProcessor$1.class
+com/spring/Autowired.class
+com/openallzzz/service/UserServiceImpl.class
+com/spring/BeanDefinition.class
+com/openallzzz/service/OpenalzzzPostProcessor.class
+com/spring/Scope.class
+com/openallzzz/service/OrderService.class
+com/openallzzz/service/UserService.class
+com/spring/InitializingBean.class
+com/openallzzz/Test.class
+com/openallzzz/AppConfig.class
+com/spring/ComponentScan.class
+com/spring/Component.class

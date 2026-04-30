@@ -131,7 +131,7 @@ public class OpenallzzzApplicationContext { // 容器类
                 String fileName = f.getAbsolutePath();
                 if (fileName.endsWith(".class")) { // 判断是否是类文件
                     String className = fileName.substring(fileName.indexOf("com"), fileName.indexOf(".class"));
-                    className = className.replace('\\', '.');
+                    className = className.replace('/', '.').replace('\\', '.');
                     Class<?> aClass = null;
                     try {
                         aClass = classLoader.loadClass(className);
@@ -162,7 +162,7 @@ public class OpenallzzzApplicationContext { // 容器类
                             beanDefinitionMap.put(beanName, beanDefinition);
                         }
                     } catch (ClassNotFoundException e) {
-                        e.getStackTrace();
+                        e.printStackTrace();
                     } catch (InvocationTargetException e) {
                         throw new RuntimeException(e);
                     } catch (InstantiationException e) {
